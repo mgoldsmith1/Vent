@@ -19,9 +19,9 @@ if [[ "$_java" ]]; then
     
     if [[ "$version" > "1.8" ]] && [[ "$version" < "1.9" ]]; then
          echo Your Version of ? is more than ? but less than ?
-	 echo No need to Upgrade... Skipping Installation Step
+         echo No need to Upgrade... Skipping Installation Step
          echo ? has already been installed.
-	 echo INSTALLED.
+         echo INSTALLED.
 	 #Running Application
 	 #echo Running Application... 
 	 #./run.sh
