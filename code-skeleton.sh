@@ -33,11 +33,11 @@ if [[ "$_temp" ]]; then
 	  #With Homebrew we will install Java 8
 	  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	  brew update
-        # brew tap caskroom/cask
-        # brew cask install caskroom/versions/java8
+       # brew tap caskroom/cask
+       # brew cask install caskroom/versions/java8
 
-          echo INSTALLED.
-          echo Complete.
+         echo INSTALLED.
+         echo Complete.
 	
     fi
 fi
