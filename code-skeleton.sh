@@ -27,17 +27,17 @@ if [[ "$_temp" ]]; then
          echo Your Version of ? is greater than ?
         
     else 
- 	 echo Your Version of ? is less than ?
-	 echo Upgrading to ?...
+ 	  echo Your Version of ? is less than ?
+	  echo Upgrading to ?...
 
-	 #With Homebrew we will install Java 8
-	 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-	 brew update
-       # brew tap caskroom/cask
-       # brew cask install caskroom/versions/java8
+	  #With Homebrew we will install Java 8
+	  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	  brew update
+        # brew tap caskroom/cask
+        # brew cask install caskroom/versions/java8
 
-         echo INSTALLED.
-         echo Complete.
+          echo INSTALLED.
+          echo Complete.
 	
     fi
 fi
